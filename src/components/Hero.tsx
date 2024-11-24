@@ -19,7 +19,7 @@ const Hero = ({
                 {subtitle}
             </h3>
         </article>
-        <img src={image} alt={title} className="rounded-md" />
+        <img src={image} alt={title} className="rounded" />
     </section>
 )
 

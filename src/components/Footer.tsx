@@ -1,7 +1,7 @@
 const Footer = () => (
     <footer
         id="footer"
-        className="border-t border-gray-700 bg-black p-4 text-white"
+        className="mb-12 border-t border-gray-800 bg-black text-white sm:mb-0 sm:ms-2 sm:ps-16"
     >
         <section className="mx-auto max-w-4xl p-4">
             <h3 className="font-heading text-xl">Спасибо, что выбрали меня!</h3>
