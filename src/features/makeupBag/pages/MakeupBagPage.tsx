@@ -30,16 +30,6 @@ export const MakeupBagPage = () => {
                 <button
                     className="adaptive-nav-bar__button--action"
                     onClick={() =>
-                        window.scrollTo({ top: 0, behavior: 'smooth' })
-                    }
-                >
-                    <ShoppingBagIcon className="h-6 w-6" />
-                    <span className="hidden lg:inline">Косметичка</span>
-                </button>
-
-                <button
-                    className="adaptive-nav-bar__button--action"
-                    onClick={() =>
                         document
                             .getElementById('stages')
                             ?.scrollIntoView({ behavior: 'smooth' })

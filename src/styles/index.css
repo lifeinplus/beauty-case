@@ -11,6 +11,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.active {
+    @apply text-rose-400;
+}
+
 .text-heading {
     @apply text-slate-700 dark:text-slate-400;
 }
